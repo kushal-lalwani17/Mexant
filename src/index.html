@@ -1,177 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </head>
-<body class="">
-    <div class="container-fluid p-0">
-        <div class="" style="background-image: url('../images/slide-01.jpg');background-size: cover; 
-        background-position: center; 
-        height: 100vh;";>
-            <nav class="navbar pb-5">
-                <div class="container">
-                    <a href="/" class="navbar-brand">
-                        <img src="../images/logo.png" class="" alt="">
-                    </a>
-                    <div>
-                        <ul class="navbar-nav d-flex flex-row justify-content-evenly">
-                            <li class="nav-item mx-4">
-                                <a class="nav-link text-white" href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link text-white" href="#">
-                                    Services
-                                </a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link text-white" href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link text-white" 
-                                   href="#" >
-                                    Pages
-                                </a>
-                            </li>
-                            <li class="nav-item mx-4">
-                                <a class="nav-link text-white" href="#">
-                                    Testimonials
-                                </a>
-                            </li>
-                            <button class="nav-item px-1 mx-4 btn btn-success">
-                                <a class="nav-link text-white" href="#">
-                                    Contact Support
-                                </a>
-                            </button>
+
+
+<body class="overflow-x-hidden">
+  <div class="bg-image" style="background-image: url('../images/slide-01.jpg'); background-size: cover; background-position: center; height: 100vh;">
+    <nav class="navbar navbar-expand-lg navbar-dark pb-5">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <button class="btn btn-success p-0">
+                            <a class="nav-link text-white" href="#">Contact Support</a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        
+            <div class="carousel-item active">
+                <div class="container py-5 text-center text-lg-start">
+                    <h1 class="text-white display-4 display-md-3">
+                        Get <span style="color: #FF5733">ready</span> for your business 
+                        <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                    </h1>
+                    <hr class="border-4 border border-white opacity-100 rounded my-5" style="width: 5%;">
+                    <p class="text-white">Random Text Random Text Random Text Random Text Random Text Random Text Random Text.</p>
+                    <div class="mt-5 d-flex flex-column flex-lg-row justify-content-start align-items-center">
+                        <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0">Discover More</button>
+                        <button type="button" class="btn text-white mb-2 mb-lg-0" style="background-color: #FF5733">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="container py-5 text-center text-lg-start">
+                    <h1 class="text-white display-4 display-md-3">
+                        Get <span style="color: #FF5733">ready</span> for your business 
+                        <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                    </h1>
+                    <hr class="border-4 border border-white opacity-100 rounded my-5" style="width: 5%;">
+                    <p class="text-white">Random Text Random Text Random Text Random Text Random Text Random Text Random Text.</p>
+                    <div class="mt-5 d-flex flex-column flex-lg-row justify-content-start align-items-center">
+                        <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0">Discover More</button>
+                        <button type="button" class="btn text-white mb-2 mb-lg-0" style="background-color: #FF5733">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item ">
+                <div class="container py-5 text-center text-lg-start">
+                    <h1 class="text-white display-4 display-md-3">
+                        Get <span style="color: #FF5733">ready</span> for your business 
+                        <br> & upgrade <span style="color: #FF5733">all aspects</span>
+                    </h1>
+                    <hr class="border-4 border border-white opacity-100 rounded my-5" style="width: 5%;">
+                    <p class="text-white">Random Text Random Text Random Text Random Text Random Text Random Text Random Text.</p>
+                    <div class="mt-5 d-flex flex-column flex-lg-row justify-content-start align-items-center">
+                        <button type="button" class="btn btn-success me-2 mb-2 mb-lg-0">Discover More</button>
+                        <button type="button" class="btn text-white mb-2 mb-lg-0" style="background-color: #FF5733">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container my-lg-5 p-lg-5 align-items-center d-flex flex-column justify-content-center gap-4">
+    <div class="row w-100">
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row w-100">
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row w-100">
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
+                <div class="m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" fill="currentColor" class="bi bi-fuel-pump-fill text-success" viewBox="0 0 16 16">
+                        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1q.846-.002 1.412.336c.383.228.634.551.794.907.295.655.294 1.465.294 2.081V7.5a.5.5 0 0 1-.5.5H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1zm2.5 0a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                    <h4>CSS Templates</h4>
+                    <p class="mt-3">Discover templates to improve your web design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add additional rows as needed -->
+</div>
+
+
     
-                        </ul>
-                    </div>
-                    
-                </div>
-                
-            
-            </nav>
-            <div id="carousel" class="my-5 carousel slide container-fluid">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div class="container py-5">
-                        <h1 class="text-white">Get <span style="color: #FF5733
-">ready</span> for your business <br> & upgrade <span style="color: #FF5733
-" >all aspects</span></h1>
-                        <hr class="border-4 border border-white opacity-100 rounded my-5" style="width: 5%;">
-                        <p class="text-white">Random Text Random Text Random Text Random Text Random TextRandom Text Rarandomndom TextRandom TextRandom TextRandom TextRandom Text Random TextRandom TextRandom Text Random TextRandom TextRandom Text Random Text</p>
-                        <div class="mt-5 ">
-                            <button type="button" class="btn btn-success">Discover More</button>
-                            <button type="button" class="btn text-white" style="background-color: #FF5733" >Contact Us</button>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                  </div>
-                  <div class="carousel-item">
-                  </div>
-                </div>
-                <button class="carousel-control-prev justify-content-start" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next justify-content-end" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              
-        </div>
-        <div class="container align-items-center d-flex flex-column justify-content-center gap-4" style="height: 80vh;">
-
-            <div class="">
-                <div class="container row p-0">
-                  <div class="col">
-                    <div class=" d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
-
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class=" d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
-
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
 
-              <div class="">
-                <div class="container row p-0">
-                  <div class="col">
-                    <div class=" d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
+        <div class="container-fluid p-0"
+            style="background-image: url('../images/cta-bg.jpg'); background-size: contain; height: 230px;">
 
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
-
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="">
-                <div class="container row p-0">
-                  <div class="col">
-                    <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="d-flex border border-5 border-light p-3 shadow-sm flex-row rounded" style="height: 10rem;">
-                        <div class="m-5"></div>
-                        <div class="d-flex flex-column justify-content-center">
-                            <h4>CSS Templates</h4>
-                            <p class="mt-3">Random Text Random Text Random Text Random Text Random Text Random Text</p>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div class="container-fluid p-0" style="background-image: url('../images/cta-bg.jpg'); background-size: contain; height: 230px;">
-
-            <div class="container d-flex flex-row justify-content-between align-content-center h-100">
+            <div class="container d-flex flex-row justify-content-between align-content-center p-0 h-100">
                 <div class="d-flex flex-column justify-content-center text-white">
-                    <h1>Business <span class="text-success">Solutions</span> and <br> <span style="color: #FF5733;">Crypto</span> Investments</h1>
+                    <h1>Business <span class="text-success">Solutions</span> and <br> <span
+                            style="color: #FF5733;">Crypto</span> Investments</h1>
                 </div>
                 <div class="d-flex px-5 flex-column justify-content-center">
                     <div class="d-flex flex-row gap-4">
@@ -182,16 +220,16 @@
                             <button class="btn btn-danger" type="button">Contact Us</button>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
-        
+
 
 
         <div class="container p-0">
             <div class="">
-                <div class="mt-5 d-flex flex-row justify-content-center">
+                <div class="p-0 mt-5 d-flex flex-row justify-content-center">
                     <div class="">
                         <h5 class="text-center">About us</h5>
                         <h1>Know us Better</h1>
@@ -202,116 +240,270 @@
                         <div class="d-flex mt-5">
                             <div class="w-100 ">
                                 <div class="d-flex flex-row ">
-                                    <button class="btn border border-3 border-light-subtle shadow-sm my-3 me-3 fw-bolder"><div class="px-lg-3 py-lg-2 ">Web Design</div></button>
-                                    <button class="btn border border-3 border-light-subtle shadow-sm my-3 mx-3 fw-bolder"><div class="px-lg-3 py-lg-2 ">Graphics</div></button>
-                                    <button class="btn border border-3 border-light-subtle shadow-sm my-3 mx-3 fw-bolder"><div class="px-lg-3 py-lg-2 ">Web Coding</div></button>
+                                    <button
+                                        class="btn border border-3 border-light-subtle shadow-sm my-3 me-3 fw-bolder">
+                                        <div class="px-lg-3 py-lg-2 ">Web Design</div>
+                                    </button>
+                                    <button
+                                        class="btn border border-3 border-light-subtle shadow-sm my-3 mx-3 fw-bolder">
+                                        <div class="px-lg-3 py-lg-2 ">Graphics</div>
+                                    </button>
+                                    <button
+                                        class="btn border border-3 border-light-subtle shadow-sm my-3 mx-3 fw-bolder">
+                                        <div class="px-lg-3 py-lg-2 ">Web Coding</div>
+                                    </button>
                                 </div>
                                 <div class=" w-100">
                                     <table class="table table-hover mb-5">
                                         <thead>
-                                          <tr>
-                                            <th class="py-4">Project Title</th>
-                                            <th class="py-4">Budget</th>
-                                            <th class="py-4">Deadline</th>
-                                            <th class="py-4">Client</th>
-                                          </tr>
+                                            <tr>
+                                                <th class="py-4">Project Title</th>
+                                                <th class="py-4">Budget</th>
+                                                <th class="py-4">Deadline</th>
+                                                <th class="py-4">Client</th>
+                                            </tr>
                                         </thead>
                                         <tbody class="">
-                                          <tr class="">
-                                            <td class="text-success fw-bold py-4">Website Redesign</td>
-                                            <td class="py-4">$1500 to $2200</td>
-                                            <td class="py-4">2022 Dec 12</td>
-                                            <td class="py-4">Web biz</td>
-                                          </tr>
-                                          <tr>
-                                            <td class="text-success fw-bold py-4">Website Renovation</td>
-                                            <td class="py-4">$2500 to $3600</td>
-                                            <td class="py-4">2022 Dec 10</td>
-                                            <td class="py-4">Online Ads</td>
-                                          </tr>
-                                          <tr>
-                                            <td class="text-success fw-bold py-4">Marketing Plan</td>
-                                            <td class="py-4">$2500 to $4200</td>
-                                            <td class="py-4">2022 Dec 8</td>
-                                            <td class="py-4">Web biz</td>
-                                          </tr>
-                                          <tr>
-                                            <td class="text-success fw-bold py-4">All-new Website</td>
-                                            <td class="py-4">$3000 to $6600</td>
-                                            <td class="py-4">2022 Dec 2</td>
-                                            <td class="py-4">Web Presence</td>
-                                          </tr>
+                                            <tr class="">
+                                                <td class="text-success fw-bold py-4">Website Redesign</td>
+                                                <td class="py-4">$1500 to $2200</td>
+                                                <td class="py-4">2022 Dec 12</td>
+                                                <td class="py-4">Web biz</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-success fw-bold py-4">Website Renovation</td>
+                                                <td class="py-4">$2500 to $3600</td>
+                                                <td class="py-4">2022 Dec 10</td>
+                                                <td class="py-4">Online Ads</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-success fw-bold py-4">Marketing Plan</td>
+                                                <td class="py-4">$2500 to $4200</td>
+                                                <td class="py-4">2022 Dec 8</td>
+                                                <td class="py-4">Web biz</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-success fw-bold py-4">All-new Website</td>
+                                                <td class="py-4">$3000 to $6600</td>
+                                                <td class="py-4">2022 Dec 2</td>
+                                                <td class="py-4">Web Presence</td>
+                                            </tr>
                                         </tbody>
-                                      </table>
+                                    </table>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="col mx-5 my-4">
                         <h4 class="my-5">Please tell us about your idea and how you want it to be</h4>
-                        <p class="small mt-5" >Randokm Text Randokm Text Randokm Text Randokm Text Randokm Text Randokm Text Randokm  Text Randokm Text <strong>Not Allowed</strong> Randokm Text Randokm Text Randokm Text Randokm Text</p>
-                        <p class="small mt-3">Randokm TextRandokm Randokm Text TextRandokm TextRandokm Text Randokm Text Randokm Text</p>
+                        <p class="small mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ue placeat quam, nesct eum nmiy disujh <strong>Not Allowed</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                        <p class="small mt-3">Randokm TextRandokm Randokm Text TextRandokm TextRandokm Text Randokm Text
+                            Randokm Text</p>
                         <div>
                             <button class="btn btn-success mt-4" type="button">Discover More</button>
                         </div>
                     </div>
                 </div>
 
-                
-    
+
+
             </div>
-                        
+
         </div>
-        <div style="background-image: url('../images/calculator-bg.jpg'); background-size: cover; height: 620px;" class="d-flex flex-row mt-5 justify-content-between">
-            <div class="position-relative w-50">
-                <img src="../images/calculator-image.png" style="left: 25%;" class="bottom-0 position-absolute" alt="">
+
+        
+        <div style="background-image: url('../images/calculator-bg.jpg'); background-size: cover; height: 620px;"
+            class="d-flex flex-row mt-5 justify-content-between">
+            <div class="position-relative w-50 ">
+                <img src="../images/calculator-image.png" style="left: 25%;" class=" bottom-0 position-absolute" alt="">
             </div>
+
+
+            
             <div class="mt-5 w-50 d-flex flex-column">
                 <h5 style="color: #FF5733;">Your Freedom</h5>
                 <h1 class="text-white">Get a Financial Plan</h1>
-                <div class="row g-4 mt-4 p-0">
+                <div class="row g-4 mt-4">
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="name" class="form-label text-white">Your Name</label>
-                            <input type="text" id="name" class="form-control opacity-25" >
+                            <input type="text" id="name" class="form-control opacity-25">
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="email" class="form-label text-white">Your Email</label>
-                            <input type="email" id="email" class="form-control opacity-25" >
+                            <input type="email" id="email" class="form-control opacity-25">
                         </div>
                     </div>
-                    
-                    <div class="col-8">
+
+                    <div class="col-8 ">
                         <div class="form-group">
                             <label for="subject" class="form-label text-white">Subject</label>
-                            <input type="text" id="subject" class="form-control opacity-25" >
+                            <input type="text" id="subject" class="form-control opacity-25">
                         </div>
                     </div>
-                    <div class="row"></div>
                     <div class="col-md-8">
-                        <div class="form-group">
+                        <div class="form-group p-0">
                             <label class="form-label text-white">Service Type</label>
-                            <select class="form-select opacity-25" >
-                                <option selected >Choose an option</option>
+                            <select class="form-select opacity-25">
+                                <option selected>Choose an option</option>
                                 <option value="1">Option - 1</option>
                                 <option value="2">Option - 2</option>
                                 <option value="3">Option - 3</option>
-                              </select>
-                            
+                            </select>
+
                         </div>
                     </div>
                 </div>
-                <button type="submit" style="background-color: #FF5733;" class="btn mt-5 w-25 text-white">Submit Now</button>
+                <button type="submit" style="background-color: #FF5733;" class="btn mt-5 w-25 p-0 text-white">Submit
+                    Now</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="container my-5 d-flex p-0 flex-column align-items-center">
+            <h5 style="color: #FF5733;" class="mt-5">Testimonials</h5>
+            <h1 class="mb-5">What They Say</h1>
+        
+            <div id="carouselExampleSlidesOnly" class="carousel slide p-0" data-bs-ride="carousel">
+                
+        
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex flex-row border rounded justify-content-between">
+                            <div class="">
+                                <div class="d-flex col-7 flex-column px-4 pt-4 align-items-baseline border-light-subtle rounded">
+                                    <div class="bg-success p-2 rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                            class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="mt-4">
+                                        <p>
+                                            Ullam itaque fugiat nobis eius nostrum maxime aut temporibus asperiores labore,
+                                            iure necessitatibus laudantium illum esse placeat assumenda odio dolores quam
+                                            nesciunt minima possimus sequi odit unde qui! Officia, sequi!</p>
+                                    </div>
+                                    <div class="mt-2">
+                                        <h3>David Eigenberg</h3>
+                                        <h5 class="text-success">CEO of Maxent</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img src="../images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+        
+
+                    <div class="carousel-item">
+                        <div class="d-flex flex-row border rounded justify-content-between">
+                            <div class="">
+                                <div class="d-flex col-7 flex-column px-4 pt-4 align-items-baseline border-light-subtle rounded">
+                                    <div class="bg-success p-2 rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                            class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="mt-4">
+                                        <p>
+                                            Ullam itaque fugiat nobis eius nostrum maxime aut temporibus asperiores labore,
+                                            iure necessitatibus laudantium illum esse placeat assumenda odio dolores quam
+                                            nesciunt minima possimus sequi odit unde qui! Officia, sequi!</p>
+                                    </div>
+                                    <div class="mt-2">
+                                        <h3>David Bhai</h3>
+                                        <h5 class="text-success">CEO of Maxent</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img src="../images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <div class="d-flex flex-row border rounded justify-content-between">
+                            <div class="">
+                                <div class="d-flex col-7 flex-column px-4 pt-4 align-items-baseline border-light-subtle rounded">
+                                    <div class="bg-success p-2 rounded">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white"
+                                            class="bi bi-quote" viewBox="0 0 16 16">
+                                            <path
+                                                d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z" />
+                                        </svg>
+                                    </div>
+                                    <div class="mt-4">
+                                        <p>
+                                            Ullam itaque fugiat nobis eius nostrum maxime aut temporibus asperiores labore,
+                                            iure necessitatibus laudantium illum esse placeat assumenda odio dolores quam
+                                            nesciunt minima possimus sequi odit unde qui! Officia, sequi!</p>
+                                    </div>
+                                    <div class="mt-2">
+                                        <h3>David Mathur</h3>
+                                        <h5 class="text-success">CEO of Maxent</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <img src="../images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active bg-danger"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" class="bg-danger"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" class="bg-danger"
+                        aria-label="Slide 3"></button>
+                </div>
             </div>
         </div>
         
-        
-            
+
+        <div class="mt-5 d-flex p-0 flex-row gap-4 justify-content-center align-content-center align-items-center" style="background-color: rgb(38, 45, 85); height:10rem">
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+            <div>
+                <img src="../images/client-01.png" alt="">
+            </div>
+        </div>
+
+        <div class="d-flex flex-column p-0 justify-content-center align-items-center text-white" style="background-color: rgb(31, 29, 59);">
+            <p class="mt-2">Copyright 2022 Maxent Co, Ltd. All Rights Reserved.</p>
+            <p>Designed by Template Distributed by Template</p>
+        </div>
+
+
     </div>
-    
-    
+
+
 </body>
+
 </html>
